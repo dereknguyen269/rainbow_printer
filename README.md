@@ -35,6 +35,10 @@ Easy to print yout text or array with Rainbow Printer.
 ```
 Btw, you can use alias `rb_puts` instead of `rainbow_printer`.
 
+Demo:
+
+![](https://github.com/dereknguyen269/rainbow_printer/blob/master/demos/demo.png)
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
