@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = 'Derek Nguyen'
   spec.email         = 'derek.nguyen.269@gmail.com'
 
-  spec.summary       = 'Rainbow Printer, it adds some methods to help your output display look likes rainbow 🌈'
-  spec.description   = 'Rainbow Printer, it adds some methods to help your output display look likes rainbow 🌈'
+  spec.summary       = 'Rainbow Printer, it adds some methods to help your output display look likes 7 colours of the rainbow 🌈'
+  spec.description   = 'Rainbow Printer, it adds some methods to help your output display look likes 7 colours of the rainbow 🌈'
   spec.homepage      = 'https://github.com/dereknguyen269/rainbow_printer'
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 

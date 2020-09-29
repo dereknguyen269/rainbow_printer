@@ -1,8 +1,6 @@
 # RainbowPrinter
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rainbow_printer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Rainbow Printer, it adds some methods to help your output display look likes 7 colours of the rainbow 🌈
 
 ## Installation
 
@@ -22,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Easy to print yout text or array with Rainbow Printer.
+
+- For texts:
+
+```
+  rainbow_printer "Hello World! I'm Rainbow Printer, I'll adds some methods to help your output display look likes 7 colours of the rainbow ;)"
+```
+
+- For Array:
+
+```
+  rainbow_printer [1, true, "Rainbow Printer"]
+```
+Btw, you can use alias `rb_puts` instead of `rainbow_printer`.
 
 ## Development
 
