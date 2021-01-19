@@ -35,6 +35,12 @@ Easy to print yout text or array with Rainbow Printer.
 ```
 Btw, you can use alias `rb_puts` instead of `rainbow_printer`.
 
+- Read from file:
+
+```
+  rainbow_printer file_path: 'your_file_path'
+```
+
 Demo:
 
 ![](https://github.com/dereknguyen269/rainbow_printer/blob/master/demos/demo.png)

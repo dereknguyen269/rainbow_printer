@@ -23,12 +23,24 @@ module RainbowPrinter
       @colors[@color_index]
     end
 
-    def puts_with_rainbow(input)
+    def puts_with_rainbow(input, opts = {})
+      from_file = opts[:from_file]
       output = ''
       input.to_s.split('').each do |str|
-        output += "\e[38;5;#{rainbow}m#{str}\e[0m"
+        if from_file
+          output += "\e[38;5;#{rainbow}m#{str}"
+        else
+          output += "\e[38;5;#{rainbow}m#{str}\e[0m"
+        end
       end
       puts output
+    end
+
+    def read_from_file(file_path)
+      content = File.open(file_path, "r") 
+      content.each_line do |line|
+        puts_with_rainbow line, from_file: true
+      end
     end
 
     def self.puts(input)
@@ -38,6 +50,8 @@ module RainbowPrinter
         input.each do |child|
           RainbowPrinter::Core.new.puts_with_rainbow child
         end
+      elsif input.is_a?(Hash)
+        RainbowPrinter::Core.new.read_from_file(input[:file_path])
       end
     end
   end
