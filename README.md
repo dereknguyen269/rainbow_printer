@@ -45,6 +45,10 @@ Demo:
 
 ![](https://github.com/dereknguyen269/rainbow_printer/blob/master/demos/demo.png)
 
+Read from file:
+
+![](https://github.com/dereknguyen269/rainbow_printer/blob/master/demos/sidekiq.png)
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
